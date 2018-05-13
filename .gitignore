@@ -1,0 +1,8 @@
+echo "/public" >> .gitignore
+echo "/node_modules" >> .gitignore
+echo "/.deploy_git" >> .gitignore
+echo "/.vscode" >> .gitignore
+git status
+git add .
+git commit -m "[F]Hello Netlify"
+git push origin master
